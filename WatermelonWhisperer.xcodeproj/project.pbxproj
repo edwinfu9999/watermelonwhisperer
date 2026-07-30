@@ -6,11 +6,38 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9E02CD62E3D2EE53A8E68E93 /* Pods_WatermelonWhispererTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3D5170A5B770BF00C54EF0 /* Pods_WatermelonWhispererTests.framework */; };
+		B6AA5635CE03CDBB4F3A7CB8 /* Pods_WatermelonWhisperer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BAAB0E05D1299C0C391D52 /* Pods_WatermelonWhisperer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AC2A54BA62B2C795D8C1A94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E860A9C0300A67BE00558301 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E860A9C7300A67BE00558301;
+			remoteInfo = WatermelonWhisperer;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		2B5AAA0EA3EF06586687A360 /* Pods-WatermelonWhisperer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatermelonWhisperer.release.xcconfig"; path = "Target Support Files/Pods-WatermelonWhisperer/Pods-WatermelonWhisperer.release.xcconfig"; sourceTree = "<group>"; };
+		2EF5E465DBEA2375C4271F87 /* WatermelonWhispererTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatermelonWhispererTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59415607454C9A3949C8E72E /* Pods-WatermelonWhispererTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatermelonWhispererTests.release.xcconfig"; path = "Target Support Files/Pods-WatermelonWhispererTests/Pods-WatermelonWhispererTests.release.xcconfig"; sourceTree = "<group>"; };
+		5A3D5170A5B770BF00C54EF0 /* Pods_WatermelonWhispererTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatermelonWhispererTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6768FAFF945A52A7637583FD /* Pods-WatermelonWhisperer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatermelonWhisperer.debug.xcconfig"; path = "Target Support Files/Pods-WatermelonWhisperer/Pods-WatermelonWhisperer.debug.xcconfig"; sourceTree = "<group>"; };
+		A1BAAB0E05D1299C0C391D52 /* Pods_WatermelonWhisperer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatermelonWhisperer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A31FDCAE8A54DE83C81BAD87 /* Pods-WatermelonWhispererTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatermelonWhispererTests.debug.xcconfig"; path = "Target Support Files/Pods-WatermelonWhispererTests/Pods-WatermelonWhispererTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E860A9C8300A67BE00558301 /* WatermelonWhisperer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatermelonWhisperer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		A7AAC5001B241D492C5DE3EC /* WatermelonWhispererTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WatermelonWhispererTests;
+			sourceTree = "<group>";
+		};
 		E860A9CA300A67BE00558301 /* WatermelonWhisperer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = WatermelonWhisperer;
@@ -19,21 +46,53 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5FCB102DCB2CAEE68CE7506D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E02CD62E3D2EE53A8E68E93 /* Pods_WatermelonWhispererTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E860A9C5300A67BE00558301 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6AA5635CE03CDBB4F3A7CB8 /* Pods_WatermelonWhisperer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		341E3738FB07DC707B42FF5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1BAAB0E05D1299C0C391D52 /* Pods_WatermelonWhisperer.framework */,
+				5A3D5170A5B770BF00C54EF0 /* Pods_WatermelonWhispererTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE443C7D8338F20D6F67E88E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6768FAFF945A52A7637583FD /* Pods-WatermelonWhisperer.debug.xcconfig */,
+				2B5AAA0EA3EF06586687A360 /* Pods-WatermelonWhisperer.release.xcconfig */,
+				A31FDCAE8A54DE83C81BAD87 /* Pods-WatermelonWhispererTests.debug.xcconfig */,
+				59415607454C9A3949C8E72E /* Pods-WatermelonWhispererTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E860A9BF300A67BD00558301 = {
 			isa = PBXGroup;
 			children = (
 				E860A9CA300A67BE00558301 /* WatermelonWhisperer */,
+				A7AAC5001B241D492C5DE3EC /* WatermelonWhispererTests */,
 				E860A9C9300A67BE00558301 /* Products */,
+				BE443C7D8338F20D6F67E88E /* Pods */,
+				341E3738FB07DC707B42FF5C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -41,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				E860A9C8300A67BE00558301 /* WatermelonWhisperer.app */,
+				2EF5E465DBEA2375C4271F87 /* WatermelonWhispererTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,13 +108,37 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		842FE7855DA9780E4FD5FEFC /* WatermelonWhispererTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F91AC6D9C36668E86F8BC83 /* Build configuration list for PBXNativeTarget "WatermelonWhispererTests" */;
+			buildPhases = (
+				3E85F9B05DBFD35AA928A316 /* [CP] Check Pods Manifest.lock */,
+				A6FE23C527F136958924D2A4 /* Sources */,
+				5FCB102DCB2CAEE68CE7506D /* Frameworks */,
+				5456C9A20FDB5E842649A855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B33230C3AF9DD5E8BA427AB4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A7AAC5001B241D492C5DE3EC /* WatermelonWhispererTests */,
+			);
+			name = WatermelonWhispererTests;
+			productName = WatermelonWhispererTests;
+			productReference = 2EF5E465DBEA2375C4271F87 /* WatermelonWhispererTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E860A9C7300A67BE00558301 /* WatermelonWhisperer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E860A9D3300A67BF00558301 /* Build configuration list for PBXNativeTarget "WatermelonWhisperer" */;
 			buildPhases = (
+				541F8A0E24D5744D952C6C19 /* [CP] Check Pods Manifest.lock */,
 				E860A9C4300A67BE00558301 /* Sources */,
 				E860A9C5300A67BE00558301 /* Frameworks */,
 				E860A9C6300A67BE00558301 /* Resources */,
+				6B1E73C65FAF0742DD186875 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -64,8 +148,6 @@
 				E860A9CA300A67BE00558301 /* WatermelonWhisperer */,
 			);
 			name = WatermelonWhisperer;
-			packageProductDependencies = (
-			);
 			productName = WatermelonWhisperer;
 			productReference = E860A9C8300A67BE00558301 /* WatermelonWhisperer.app */;
 			productType = "com.apple.product-type.application";
@@ -80,6 +162,10 @@
 				LastSwiftUpdateCheck = 2630;
 				LastUpgradeCheck = 2630;
 				TargetAttributes = {
+					842FE7855DA9780E4FD5FEFC = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = E860A9C7300A67BE00558301;
+					};
 					E860A9C7300A67BE00558301 = {
 						CreatedOnToolsVersion = 26.3;
 					};
@@ -100,11 +186,19 @@
 			projectRoot = "";
 			targets = (
 				E860A9C7300A67BE00558301 /* WatermelonWhisperer */,
+				842FE7855DA9780E4FD5FEFC /* WatermelonWhispererTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5456C9A20FDB5E842649A855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E860A9C6300A67BE00558301 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -114,7 +208,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E85F9B05DBFD35AA928A316 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WatermelonWhispererTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		541F8A0E24D5744D952C6C19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WatermelonWhisperer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B1E73C65FAF0742DD186875 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WatermelonWhisperer/Pods-WatermelonWhisperer-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WatermelonWhisperer/Pods-WatermelonWhisperer-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WatermelonWhisperer/Pods-WatermelonWhisperer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		A6FE23C527F136958924D2A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E860A9C4300A67BE00558301 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,7 +293,53 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		B33230C3AF9DD5E8BA427AB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E860A9C7300A67BE00558301 /* WatermelonWhisperer */;
+			targetProxy = 2AC2A54BA62B2C795D8C1A94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		B5806B436B0D9CA15DF1C236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A31FDCAE8A54DE83C81BAD87 /* Pods-WatermelonWhispererTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2MVUJDVHZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FYZ.WatermelonWhispererTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatermelonWhisperer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WatermelonWhisperer";
+			};
+			name = Debug;
+		};
+		BE27813FC86938BA9F0C9F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59415607454C9A3949C8E72E /* Pods-WatermelonWhispererTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2MVUJDVHZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FYZ.WatermelonWhispererTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatermelonWhisperer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WatermelonWhisperer";
+			};
+			name = Release;
+		};
 		E860A9D1300A67BF00558301 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -163,7 +378,7 @@
 				DEVELOPMENT_TEAM = V2MVUJDVHZ;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -178,7 +393,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -227,7 +442,7 @@
 				DEVELOPMENT_TEAM = V2MVUJDVHZ;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -236,7 +451,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -248,6 +463,7 @@
 		};
 		E860A9D4300A67BF00558301 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6768FAFF945A52A7637583FD /* Pods-WatermelonWhisperer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -256,16 +472,24 @@
 				DEVELOPMENT_TEAM = V2MVUJDVHZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "WatermelonWhisperer needs camera access to take a photo of your watermelon so it can estimate its sweetness.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "WatermelonWhisperer needs microphone access to record the sound of tapping your watermelon so it can estimate its sweetness.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"$(PODS_ROOT)/TensorFlowLiteSelectTfOps/Frameworks/TensorFlowLiteSelectTfOps.xcframework/ios-arm64/TensorFlowLiteSelectTfOps.framework/TensorFlowLiteSelectTfOps",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = FYZ.WatermelonWhisperer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -280,6 +504,7 @@
 		};
 		E860A9D5300A67BF00558301 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B5AAA0EA3EF06586687A360 /* Pods-WatermelonWhisperer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -288,16 +513,24 @@
 				DEVELOPMENT_TEAM = V2MVUJDVHZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "WatermelonWhisperer needs camera access to take a photo of your watermelon so it can estimate its sweetness.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "WatermelonWhisperer needs microphone access to record the sound of tapping your watermelon so it can estimate its sweetness.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"$(PODS_ROOT)/TensorFlowLiteSelectTfOps/Frameworks/TensorFlowLiteSelectTfOps.xcframework/ios-arm64/TensorFlowLiteSelectTfOps.framework/TensorFlowLiteSelectTfOps",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = FYZ.WatermelonWhisperer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -313,6 +546,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3F91AC6D9C36668E86F8BC83 /* Build configuration list for PBXNativeTarget "WatermelonWhispererTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5806B436B0D9CA15DF1C236 /* Debug */,
+				BE27813FC86938BA9F0C9F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E860A9C3300A67BE00558301 /* Build configuration list for PBXProject "WatermelonWhisperer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

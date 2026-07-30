@@ -2,16 +2,17 @@
 //  WatermelonWhispererApp.swift
 //  WatermelonWhisperer
 //
-//  Created by Fu Yi Zhuo on 17/07/2026.
-//
 
 import SwiftUI
 
 @main
 struct WatermelonWhispererApp: App {
+    @StateObject private var appState = AppState()
+    @StateObject private var predictorLoader = PredictorLoader()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView(appState: appState, predictorLoader: predictorLoader)
         }
     }
 }

@@ -1,0 +1,11 @@
+# Xcode
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+
+# CocoaPods
+Pods/
+
+# macOS
+.DS_Store
